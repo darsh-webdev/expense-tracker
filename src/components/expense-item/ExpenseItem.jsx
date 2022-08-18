@@ -1,6 +1,6 @@
 import React from "react";
 import ExpenseDate from "../expense-date/ExpenseDate";
-import "./expense-item-component.scss";
+import "./expense-item.styles.scss";
 
 const ExpenseItem = ({ item }) => {
   const { title, amount, date } = item;
